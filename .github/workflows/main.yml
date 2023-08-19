@@ -2,7 +2,7 @@ name: testing cicd pipeline
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "masterpranjal" ]
     
 jobs:
   job1:
@@ -12,4 +12,4 @@ jobs:
     - name: List files
       run: ls -ftr
     - name: Echo simple message
-      run: echozzzzzzzzzz "Hello Pranjal"
+      run: echo "Hello Pranjal"
