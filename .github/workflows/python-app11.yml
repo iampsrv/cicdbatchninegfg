@@ -1,0 +1,13 @@
+name: testing cicd pipeline
+
+on:
+  push:
+    branches: [ "master" ]
+    
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: List files
+      run: ls -ltr
