@@ -57,7 +57,7 @@ def delete_item_from_db(key):
     
 @app.route('/')
 def hello():
-    return "testing jenkins with gitscm polling"
+    return "testing jenkins with gitscm polling 1111"
     
 @app.route('/items', methods=['GET'])
 def get_all_items():
